@@ -47,7 +47,7 @@ const Login = () => {
       // Reload untuk update context
       window.location.reload();
     } catch (err) {
-      console.error('Login error:', err);
+      // console.error('Login error:', err);
       
       if (err.response) {
         if (err.response.status === 422) {
